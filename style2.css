@@ -1,0 +1,156 @@
+.logo {
+    padding: 20px 0;
+}
+
+body {
+    background-color: #E5E5E5;
+    font-family: "Montserrat", sans-serif;
+}
+
+header {
+    display: flex;
+}
+
+.logo {
+    width: 10%;
+}
+
+.titulo {
+    width: 90%;
+    text-align: center;
+    margin: 2% auto;
+    font-weight: bold;
+    color: #0A3871;
+    font-size: 30px;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    padding-right: 10%;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.principal {
+    width: 100%;
+    max-width: 60%;
+}
+
+.secundario {
+    width: 100%;
+    max-width: 40%;
+    text-align: center;
+}
+
+.tarjeta {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 90%;
+    max-width: 600px;
+    height: auto;
+    box-sizing: border-box;
+    background-color: #FFFFFF;
+    border: 2px solid #FFFFFF;
+    border-radius: 30px;
+    margin: 4% auto;
+    padding: 5%;
+    box-shadow: rgba(0, 0, 0, 0.08) 0px 24px 32px -8px;
+}
+
+.resultado,
+.texto-cifrar {
+    color: black;
+    background: transparent;
+    width: 100%;
+    padding: 10px 25px;
+    margin: 0 0 20px;
+    border: none;
+    font-size: 1.5em;
+    resize: none;
+    outline: none;
+}
+
+.tarjeta-img {
+    width: 100%;
+    max-height: 370px;
+    position: relative;
+}
+
+.tarjeta-texto {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.tarjeta-texto h2 {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5% 2%;
+}
+
+.tarjeta-texto p {
+    padding: 2%;
+}
+
+.tarjeta-button {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.btn-copiar,
+.btn-encriptar,
+.btn-desencriptar {
+    width: 100%;
+    max-width: 280px;
+    height: auto;
+    margin-right: 0;
+    border-radius: 24px;
+    font-size: 15px;
+    margin-top: 12%;
+}
+
+.botones {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 280px;
+}
+
+.redes {
+    width: 100%;
+    display: flex;
+    margin: 1% auto;
+    justify-content: center;
+}
+
+.redes div {
+    margin: 1% 1%;
+}
+
+.alerta {
+    margin: 5% auto;
+}
+
+footer {
+    height: 24.35vh;
+    text-align: center;
+    background: url(imagenes/fondo2.jpg);
+    padding: 40px;
+}
+
+.copyright {
+    color: #FFFFFF;
+    font-size: 15px;
+    margin: 20px;
+    font-weight: bold;
+}
+
+.copy {
+    width: 100%;
+}
+
+

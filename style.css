@@ -1,0 +1,379 @@
+.logo{
+    padding: 20px 0;
+}
+
+body{
+    background-color: #E5E5E5;
+    font-family: "Montserrat", sans-serif;
+}
+header{
+    display: flex;
+       
+}
+.logo{
+    width: 10%;
+}
+.titulo{
+    width:90%;
+    text-align: center;
+    margin: 2% auto;
+    font-weight: bold;
+    color: #0A3871;
+    font-size: 30px;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    padding-right: 10%;
+}
+main{
+    display: flex;
+    width: 1280px;
+    height: 700px;
+    margin: 0 auto;
+    
+       
+}
+.principal{
+ 
+    width: 60%;
+    
+    
+}
+.secundario{
+    width: 40%;
+    text-align: center;
+    
+}
+.tarjeta{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 75%;
+    height: 95%;
+    box-sizing: border-box;
+    vertical-align: top;   
+    background-color: #FFFFFF;
+    border: 2px solid #FFFFFF;
+    border-radius: 30px;
+    margin: 0% 8% 8% 15%;  
+    padding: 5%;
+    box-shadow: rgba(0, 0, 0, 0.08) 0px 24px 32px -8px;
+
+}
+.resultado{  
+    
+    color: black;
+    background: transparent;
+    width: 80%;
+    height: 450px;
+    padding: 10px 25px;
+    margin: 0 0 50px;
+    border: none ;
+    font-size: 1.5em;
+    resize: none;
+    outline: none;
+    
+    
+}
+.tarjeta-img{
+    width: 100%;
+    height: 370px;
+    
+    position: relative;
+
+}
+.tarjeta-texto{
+    width: 100%;
+    height: 20%;   
+    position: relative;
+
+}
+.tarjeta-texto h2{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5% 2%;
+    
+}
+.tarjeta-texto p{
+    padding: 2%;
+    
+}
+.tarjeta-button{
+    width: 100%;
+    height: 20%;
+    position: relative; 
+    
+    
+}
+.btn-copiar{
+    width: 90%;
+    height: 60px;
+    margin-right: 1.7647059%;
+    border-radius: 24px;
+    background-color: #FFFFFF;
+    border: 2px solid #0A3871;
+    color: #0A3871;
+    font-size: 15px;
+    margin-top: 12%;  
+}
+.btn-copiar:hover{
+    background: #D8DFE8;
+}
+
+.tarjeta-contenido img{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    max-width: 100%;
+    height: auto;
+    
+}
+
+.oculto {
+    display: none;
+}
+
+
+
+
+.btn-encriptar{
+    width: 280px;
+    height: 60px;
+    margin-right: 1.7647059%;
+    border-radius: 24px;
+    background-color: #0A3871;
+    border: 2px solid #0A3871;
+    color: #FFFFFF;
+    font-size: 15px;
+    margin-right: 10%;  
+    margin-left: 10%;    
+}
+.btn-encriptar:hover{
+    background: #265691;
+}
+.btn-desencriptar{
+    width: 280px;
+    height: 60px;
+    margin-right: 1.7647059%;
+    border-radius: 24px;
+    background-color: #D8DFE8;
+    border: 2px solid #0A3871;
+    color: #0A3871;
+    font-size: 15px;
+}
+.btn-desencriptar:hover{
+    background: #a1b0c4;
+}
+.texto-cifrar{
+    color: rgb(10, 56, 113);
+    background: transparent;
+    width: 80%;
+    height: 450px;
+    padding: 10px 25px;
+    margin: 0 0 20px;
+    border: none;
+    font-size: 2em;
+    resize: none;
+    outline: none;
+}
+
+.alerta {
+    margin: 5% auto;
+    margin-left: 5%;
+}
+
+
+footer{
+    /*height: 100px;*/
+    height: 24.35vh;
+    text-align: center;
+    background: url(imagenes/fondo2.jpg);
+    padding: 40px;
+    width: 100%;
+}
+.copyright{
+    color: #FFFFFF;
+    font-size: 15px;
+    margin: 20px;
+    font-weight: bold;
+}
+.copy{
+    width: 100%;
+}
+.redes{
+    width: 100%;
+    display: flex; 
+    margin: 1% auto;
+    justify-content: center;
+    
+}
+.redes div{
+    margin: 1% 1%;
+}
+
+
+@media (max-width: 1200px) {
+    main {
+      max-width: 1200px;
+      padding: 0; /* Elimina el espacio a los lados en pantallas grandes */
+    }
+    
+    .principal{
+        width: 50%;
+    }
+    .secundario{
+        width: 40%;
+    }
+    .botones{
+        display: flex;
+        width: 100%;
+        align-items: center;
+          
+       
+    }
+    .btn-encriptar{
+        margin-bottom: 5%;  
+        width: 50%;
+        height: 60px;
+        margin-left: 5%;
+    }
+    .btn-desencriptar{
+        margin-bottom: 5%;  
+        width: 50%;
+        height: 60px;
+    }
+    .alerta{
+        margin-left: 5%;
+    }
+
+    
+  }
+  
+  /* Estilos para pantallas medianas */
+  @media (max-width: 992px) {
+    main {
+      max-width: 960px;
+    }
+    .botones{
+        display: flex;
+        width: 100%;
+        align-items: center;
+          
+       
+    }
+    .btn-encriptar{
+        margin-bottom: 5%;  
+        width: 50%;
+        height: 60px;
+        margin-left: 5%;
+    }
+    .btn-desencriptar{
+        margin-bottom: 5%;  
+        width: 50%;
+        height: 60px;
+    }
+    .alerta{
+        margin-left: 5%;
+    }
+
+  }
+  
+  /* Estilos para pantallas pequeñas */
+  
+  /* Estilos para dispositivos móviles */
+  @media (max-width: 768px) {
+    main {
+      max-width: 100%;
+      padding: 0 0; /* Reduce el espacio a los lados en dispositivos móviles */
+      flex-direction: column;
+    }
+    .principal,
+    .secundario {
+    width: 100%;
+    }
+    .principal{
+        height: 70%;
+        
+    }
+    .secundario{
+        height: 400px;
+    }
+   
+    .logo {
+        width: 20%;
+    }
+    .titulo {
+        font-size: 24px;
+        margin-top: 5%;
+    }
+    .alerta{
+        margin-left: 5%;
+    }
+    .botones{
+        display: flex;
+        width: 100%;
+        align-items: center;
+        
+       
+       
+    }
+
+    .btn-encriptar{
+        margin-bottom: 5%;  
+        width: 30%;
+        margin-left: 15%;
+    }
+    .btn-desencriptar{
+        margin-bottom: 5%;  
+        width: 30%;
+    }
+    .tarjeta{
+        
+        position: relative;
+        height: 250px;
+        margin-top: 5%;
+        
+    }
+    .tarjeta-img{
+        height: 1px;
+    }
+    .muneco{
+        height: 0%;
+        display:none ;
+        max-width: 0%;   
+         
+    }
+    .tarjeta-texto{
+        height: auto;
+        
+    }
+    .tarjeta-button{
+        margin-top: 15%;
+        height: 150px;
+        position: relative;
+        
+    }
+    .texto-cifrar{
+        height: 170px;
+    }
+    footer{
+        margin-top: 10%;
+    }
+
+
+  }
+  @media (max-width: 638px) {
+    .tarjeta-button{
+        margin-top: 20%;
+        height: 150px;
+        position: relative;
+        
+    }
+  }
+  @media (max-width: 485px) {
+    .tarjeta-button{
+        margin-top: 100px;
+        height: 150px;
+        position: relative;
+        
+    }
+  }
