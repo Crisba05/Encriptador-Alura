@@ -15,7 +15,7 @@ function encriptarTexto() {
     alert("El texto");
     return;
   }
-  if (/^[a-z\s]+$/.test(texto)) {
+  if (/^[a-z\sñ]+$/.test(texto)) {
     let encriptado = texto.replace(
       /[aeiou]/g,
       (vocal) => llave[vocales.indexOf(vocal)]
@@ -34,7 +34,7 @@ function desencriptarTexto() {
   if (texto === "") {   
     return;
   }
-  if (/^([a-z\s]|ai|enter|imes|ober|ufat)+$/.test(texto)) {
+  if (/^([a-z\sñ]|ai|enter|imes|ober|ufat)+$/.test(texto)) {
     let desencriptado = texto.replace(
       /ai|enter|imes|ober|ufat/g,
       (llave) => vocales[["ai", "enter", "imes", "ober", "ufat"].indexOf(llave)]
